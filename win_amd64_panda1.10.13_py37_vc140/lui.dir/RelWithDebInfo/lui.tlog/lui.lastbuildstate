@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0.14393.0
+RelWithDebInfo|x64|D:\New folder\LUI-master\LUI-master\win_amd64_panda1.10.13_py37_vc140\|
