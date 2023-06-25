@@ -1,0 +1,3 @@
+D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/lui.dir
+D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/ALL_BUILD.dir
+D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/ZERO_CHECK.dir

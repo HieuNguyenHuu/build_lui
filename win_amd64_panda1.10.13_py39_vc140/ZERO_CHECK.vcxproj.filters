@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\New folder\LUI-master-buildone\LUI-master\win_amd64_panda1.10.13_py39_vc140\CMakeFiles\2da9d403708d26b94ddd1a2d4d52b771\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{09C751DA-BF10-3871-A470-73827494A388}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

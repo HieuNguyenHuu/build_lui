@@ -1,0 +1,345 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 14.0.25420.1
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 6/25/2023 2:03:31 PM.
+      Project "D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\3.27.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\3.27.0-rc3\\CompilerIdC\\.\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\3.27.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.22
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/3.27.0-rc3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 14.0.25420.1
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 6/25/2023 2:03:32 PM.
+      Project "D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\3.27.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc140.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\3.27.0-rc3\\CompilerIdCXX\\.\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\3.27.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.25
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/3.27.0-rc3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-i1p69s"
+      binary: "D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-i1p69s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-i1p69s'
+        
+        Run Build Command(s): "C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" cmTC_7a700.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=14.0 /v:n
+        Microsoft (R) Build Engine version 14.0.25420.1
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6/25/2023 2:03:34 PM.
+        Project "D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-i1p69s\\cmTC_7a700.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_7a700.dir\\Debug\\".
+          Creating directory "D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-i1p69s\\Debug\\".
+          Creating directory "cmTC_7a700.dir\\Debug\\cmTC_7a700.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7a700.dir\\Debug\\cmTC_7a700.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7a700.dir\\Debug\\\\" /Fd"cmTC_7a700.dir\\Debug\\vc140.pdb" /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7a700.dir\\Debug\\\\" /Fd"cmTC_7a700.dir\\Debug\\vc140.pdb" /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-i1p69s\\Debug\\cmTC_7a700.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-i1p69s/Debug/cmTC_7a700.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-i1p69s/Debug/cmTC_7a700.lib" /MACHINE:X64  /machine:x64 cmTC_7a700.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_7a700.vcxproj -> D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-i1p69s\\Debug\\cmTC_7a700.exe
+          cmTC_7a700.vcxproj -> D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-i1p69s/Debug/cmTC_7a700.pdb (Full PDB)
+        FinalizeBuildStatus:
+          Deleting file "cmTC_7a700.dir\\Debug\\cmTC_7a700.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7a700.dir\\Debug\\cmTC_7a700.tlog\\cmTC_7a700.lastbuildstate".
+        Done Building Project "D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-i1p69s\\cmTC_7a700.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.54
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-85ddkn"
+      binary: "D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-85ddkn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-85ddkn'
+        
+        Run Build Command(s): "C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" cmTC_d02e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=14.0 /v:n
+        Microsoft (R) Build Engine version 14.0.25420.1
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6/25/2023 2:03:36 PM.
+        Project "D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-85ddkn\\cmTC_d02e0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d02e0.dir\\Debug\\".
+          Creating directory "D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-85ddkn\\Debug\\".
+          Creating directory "cmTC_d02e0.dir\\Debug\\cmTC_d02e0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d02e0.dir\\Debug\\cmTC_d02e0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d02e0.dir\\Debug\\\\" /Fd"cmTC_d02e0.dir\\Debug\\vc140.pdb" /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d02e0.dir\\Debug\\\\" /Fd"cmTC_d02e0.dir\\Debug\\vc140.pdb" /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-85ddkn\\Debug\\cmTC_d02e0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-85ddkn/Debug/cmTC_d02e0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-85ddkn/Debug/cmTC_d02e0.lib" /MACHINE:X64  /machine:x64 cmTC_d02e0.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_d02e0.vcxproj -> D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-85ddkn\\Debug\\cmTC_d02e0.exe
+          cmTC_d02e0.vcxproj -> D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-85ddkn/Debug/cmTC_d02e0.pdb (Full PDB)
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d02e0.dir\\Debug\\cmTC_d02e0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d02e0.dir\\Debug\\cmTC_d02e0.tlog\\cmTC_d02e0.lastbuildstate".
+        Done Building Project "D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-85ddkn\\cmTC_d02e0.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.27
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-87h9sr"
+      binary: "D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-87h9sr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-87h9sr'
+        
+        Run Build Command(s): "C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" cmTC_96cad.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=14.0 /v:n
+        Microsoft (R) Build Engine version 14.0.25420.1
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6/25/2023 2:03:37 PM.
+        Project "D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-87h9sr\\cmTC_96cad.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_96cad.dir\\Debug\\".
+          Creating directory "D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-87h9sr\\Debug\\".
+          Creating directory "cmTC_96cad.dir\\Debug\\cmTC_96cad.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_96cad.dir\\Debug\\cmTC_96cad.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_96cad.dir\\Debug\\\\" /Fd"cmTC_96cad.dir\\Debug\\vc140.pdb" /Gd /TP /errorReport:queue  -std:c++14 "D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-87h9sr\\feature_tests.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_96cad.dir\\Debug\\\\" /Fd"cmTC_96cad.dir\\Debug\\vc140.pdb" /Gd /TP /errorReport:queue  -std:c++14 "D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-87h9sr\\feature_tests.cxx"
+          
+          feature_tests.cxx
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-87h9sr\\Debug\\cmTC_96cad.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-87h9sr/Debug/cmTC_96cad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-87h9sr/Debug/cmTC_96cad.lib" /MACHINE:X64  /machine:x64 cmTC_96cad.dir\\Debug\\feature_tests.obj
+          cmTC_96cad.vcxproj -> D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-87h9sr\\Debug\\cmTC_96cad.exe
+          cmTC_96cad.vcxproj -> D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-87h9sr/Debug/cmTC_96cad.pdb (Full PDB)
+        FinalizeBuildStatus:
+          Deleting file "cmTC_96cad.dir\\Debug\\cmTC_96cad.tlog\\unsuccessfulbuild".
+          Touching "cmTC_96cad.dir\\Debug\\cmTC_96cad.tlog\\cmTC_96cad.lastbuildstate".
+        Done Building Project "D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-87h9sr\\cmTC_96cad.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.27
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-w79hfe"
+      binary: "D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-w79hfe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-w79hfe'
+        
+        Run Build Command(s): "C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" cmTC_2332d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=14.0 /v:n
+        Microsoft (R) Build Engine version 14.0.25420.1
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 6/25/2023 2:03:39 PM.
+        Project "D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-w79hfe\\cmTC_2332d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2332d.dir\\Debug\\".
+          Creating directory "D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-w79hfe\\Debug\\".
+          Creating directory "cmTC_2332d.dir\\Debug\\cmTC_2332d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2332d.dir\\Debug\\cmTC_2332d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2332d.dir\\Debug\\\\" /Fd"cmTC_2332d.dir\\Debug\\vc140.pdb" /Gd /TP /errorReport:queue "D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-w79hfe\\feature_tests.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          
+          cl /c /Zi /W3 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2332d.dir\\Debug\\\\" /Fd"cmTC_2332d.dir\\Debug\\vc140.pdb" /Gd /TP /errorReport:queue "D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-w79hfe\\feature_tests.cxx"
+          
+          feature_tests.cxx
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-w79hfe\\Debug\\cmTC_2332d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-w79hfe/Debug/cmTC_2332d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-w79hfe/Debug/cmTC_2332d.lib" /MACHINE:X64  /machine:x64 cmTC_2332d.dir\\Debug\\feature_tests.obj
+          cmTC_2332d.vcxproj -> D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-w79hfe\\Debug\\cmTC_2332d.exe
+          cmTC_2332d.vcxproj -> D:/New folder/LUI-master-buildone/LUI-master/win_amd64_panda1.10.13_py39_vc140/CMakeFiles/CMakeScratch/TryCompile-w79hfe/Debug/cmTC_2332d.pdb (Full PDB)
+        FinalizeBuildStatus:
+          Deleting file "cmTC_2332d.dir\\Debug\\cmTC_2332d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2332d.dir\\Debug\\cmTC_2332d.tlog\\cmTC_2332d.lastbuildstate".
+        Done Building Project "D:\\New folder\\LUI-master-buildone\\LUI-master\\win_amd64_panda1.10.13_py39_vc140\\CMakeFiles\\CMakeScratch\\TryCompile-w79hfe\\cmTC_2332d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.26
+        
+      exitCode: 0
+...
